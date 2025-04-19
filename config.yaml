@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://git.sr.ht/~icikowski/vanitygen/blob/main/config.schema.json
+domain: "go.tobuf.dev"
+siteName: "Go tobuf packages"
+author: "Vladimir Kozhevnikov"
+pkgs:
+  - name: tobuf
+    provider: github
+    repoUrl: "https://github.com/tobuf/tobuf"
+    branch: main
